@@ -88,21 +88,34 @@ print("\nРозділ 1.2 Змінні\n")
 
  */
 
+let userFirstName: String = "Oskar"
+let userLastName: String = "Nook"
+var age: UInt8 = 33
+var height: Float = 1.78
+var weight: Float = 78.5
+var isMarries: Bool = false
+
+
 print("Інформація за 2018 р.:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(userFirstName)")
+print("Прізвище: \(userLastName)")
+print("Вік: \(age)")
+print("зріст: \(height) см")
+print("Вага: \(weight) кг")
+print("У шлюбі: \(isMarries)")
+
+isMarries = true
+weight = 65.3
+age = 35
+
 
 print("\nІнформація за поточний рік:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(userFirstName)")
+print("Прізвище: \(userLastName)")
+print("Вік: \(age)")
+print("зріст: \(height) см")
+print("Вага: \(weight) кг")
+print("У шлюбі: \(isMarries) ")
 
 
 print("\nРозділ 1.3 Псевдоніми\n")
