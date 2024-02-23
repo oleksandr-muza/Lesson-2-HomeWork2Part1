@@ -157,15 +157,27 @@ print("\nРозділ 1.3 Псевдоніми\n")
 
  */
 
+typealias Preasure = Double
+typealias Humidity = Int
+typealias Temp = Double
+
+var preasure: Preasure = 87
+var humidity: Humidity = 44
+var temp: Temp = 23.7
+
 print("Погода вчора:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(preasure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(temp) C")
+
+preasure = 65
+humidity = 67
+temp = 26.4
 
 print("\nПогода сьогодні:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(preasure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(temp) C")
 
 
 print("\nРозділ 1.4 Кортежі\n")
