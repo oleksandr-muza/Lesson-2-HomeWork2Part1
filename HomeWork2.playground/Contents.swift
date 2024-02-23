@@ -259,6 +259,10 @@ print("\nРозділ 1.5 Опціонали\n")
 
  */
 
-print("Користувач авторизован: ")
+var userLoggedIn: Bool?
 
-print("Користувач авторизован: ")
+print("Користувач авторизован: \(String(describing: userLoggedIn)) ")
+
+userLoggedIn = true
+
+print("Користувач авторизован: \(String(describing: userLoggedIn)) ")
